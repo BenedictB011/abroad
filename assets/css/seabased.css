@@ -1,0 +1,88 @@
+/*alert in job listing page*/
+.alert-sj {
+  border: 2px solid #033d73 !important;
+}
+
+.alert-sj  span,
+.alert-sj a{
+  color: #033d73;
+}
+
+.alert-sj i{
+  background-color: #033d73;
+  padding:.5rem;
+  border-radius: 100%;
+}
+
+.sj-alert{
+  position: sticky;
+  top:0;
+  z-index: 1;
+}
+
+/*SJ Promotion Inside Page*/
+.sj-scroll{
+  position: fixed;
+  top:2.5rem;
+  z-index: 1;
+  width: 100%;
+}
+
+@media screen and (min-width:992px){
+  .sj-scroll{
+    position: sticky;
+    top: 3.25rem;
+    width: auto;
+  }
+}
+
+/*ribbon tag in jobs by position page*/
+
+.tag-seafarer{
+  right:1rem;
+  z-index: 1;`
+}
+
+.badge-seafarer {
+  background-color: #033d73;
+}
+
+/*Tooltip for SJ*/
+@media screen and (min-width: 576px) {
+  .overflow-visible{
+    overflow: visible;
+  }
+}
+
+.tooltip-seabased{
+    display:none;
+    position:absolute;
+    top: 3.25rem;
+    transform: translateX(-80%);
+    padding:.5rem;
+    background:#fcfcfc;
+    z-index: 2;
+    border: 1px solid #c7c7c7;
+    color: #212121;
+    border-radius:3px;
+}
+
+.tooltip-seabased p{
+    width:150px;
+    white-space: normal;
+}
+
+.seabased-opt:hover .tooltip-seabased{
+    display:inline-block;
+}
+
+.tooltip-seabased:before{
+  content:'';
+  position:absolute;
+  width:10px;
+  height:10px;
+  top: -1rem;
+  left:45%;
+  border:8px solid transparent;
+  border-bottom-color: #7c7c7c !important;
+}

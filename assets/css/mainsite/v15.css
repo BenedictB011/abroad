@@ -1,0 +1,34 @@
+h2.v-1-5-h2{
+    font-size: 1.4rem;
+}
+.banner-top{
+	top: 0;
+	z-index: 1;
+}
+.ad-container,
+.ad-container-top{
+  position: sticky;
+}
+
+.ad-container{
+  top: 1rem;
+}
+
+.bg-adblocker{
+    border-color: #ff8201;
+    background-color: #ff8201;
+}
+
+.fetched iframe{
+    background-color: #c7c7c7;
+    animation: fading 3s ease-in-out infinite normal;
+}
+@keyframes fading {
+    0.0%{}
+    100%{
+        opacity: 1;
+    }
+    50.1%{
+        opacity: 0;
+    }
+}

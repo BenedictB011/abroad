@@ -1,0 +1,21 @@
+.cc-grower{
+        height: 100%;
+    }
+    
+@media screen and (max-width: 767px) and (min-width:576px){
+    .cc-grower,
+    .cc-btn{
+        display: block;
+    }
+    .cc-grower{
+        height: 100px!important;
+    }
+    .cc-btn{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .cc-grower{
+        height: 51px;
+    }

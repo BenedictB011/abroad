@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #004efb;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0,50V0h50v50H0Z"/>
+  <g id="surface1">
+    <path class="cls-2" d="M12,0c-1.09,0-2,.91-2,2v2H4c-.52,0-1.05.19-1.43.57-.38.37-.57.91-.57,1.43v40c0,.52.19,1.05.57,1.43.37.37.91.57,1.43.57h42c.52,0,1.05-.19,1.43-.57.37-.38.57-.91.57-1.43V6c0-.52-.19-1.05-.57-1.43-.38-.38-.91-.57-1.43-.57h-6v-2c0-1.09-.91-2-2-2h-2c-1.09,0-2,.91-2,2v2H16v-2c0-1.09-.91-2-2-2h-2ZM12,2h2v6h-2V2ZM36,2h2v6h-2V2ZM4,6h6v2c0,1.09.91,2,2,2h2c1.09,0,2-.91,2-2v-2h18v2c0,1.09.91,2,2,2h2c1.09,0,2-.91,2-2v-2h6v7H4v-7ZM4,15h42v31H4V15ZM10,19v23h30v-23H10ZM12,21h5v5h-5v-5ZM19,21h5v5h-5v-5ZM26,21h5v5h-5v-5ZM33,21h5v5h-5v-5ZM12,28h5v5h-5v-5ZM19,28h5v5h-5v-5ZM33,28h5v5h-5v-5ZM12,35h5v5h-5v-5ZM19,35h5v5h-5v-5ZM26,35h5v5h-5v-5ZM33,35h5v5h-5v-5Z"/>
+  </g>
+</svg>

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side{
+    width: 40%;
+    margin: 10px;
+}
+.side img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+.side h1{
+    color: rgb(22, 20, 20);
+    margin-bottom: 20px;
+}
+.side h3{
+    color: rgb(116, 105, 105);
+    font-size: 15px;
+}
+
+.second-side-section img{
+    width: 70px;
+    margin-bottom: 15px;
+}
+.second-side-section p{
+    margin-bottom: 10px;
+}
+
+
+.span{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+}
+.span img{
+    margin-right: 10px;
+    width: 30px;
+}
+
+.main{
+    width: 60%;
+    margin: 10px;
+}
+.main input{
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+#email{
+    margin-top: 20px;
+}
+.main a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(58, 94, 212);
+}
+.main p {
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.link{
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.links-buttons{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.links-buttons a{
+    margin-right: 10px;
+    line-height: 1rem;
+}
+
+.links-buttons button{
+   margin-left: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 15px;
+   border: none;
+   color: white;
+   background-color: rgb(58, 94, 212);
+}
+
+
+.sp-c{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.sp-c input{
+    margin-top: 30px;
+    width: 20px;
+}
+
+
+@media(max-width: 768px){
+    body{
+        height: 100%;
+        overflow: visible;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .side{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main{
+        width:100%;
+    }
+    .links-buttons{
+        justify-content: space-between;
+    }
+   
+}
+

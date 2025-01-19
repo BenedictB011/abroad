@@ -1,0 +1,26 @@
+.referral-btn {
+    border-radius: 50px;
+    white-space: normal;
+}
+.referral-container {
+    top: 0;
+}
+
+@media screen and (max-width: 576px){
+    .apply-fixed{
+        z-index: 2;
+        bottom: 0;
+        width: 100%;
+        right: 0;
+        left: 0;
+        position:fixed;
+        background: #F3F3F3;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .img-container{
+      height: 240px;
+      overflow-y: hidden;
+    }
+}

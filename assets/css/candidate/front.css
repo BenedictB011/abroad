@@ -1,0 +1,99 @@
+/*Icons*/
+.icons8-facebook {
+display: inline-block;
+margin-bottom: -0.5em;
+margin-right: 1em;
+width: 24px;
+height: 24px;
+background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAyMjQgMjI0IgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDIyNHYtMjI0aDIyNHYyMjR6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTE3Ny4zMzMzMywyOGgtMTMwLjY2NjY3Yy0xMC4zMTMzMywwIC0xOC42NjY2Nyw4LjM1MzMzIC0xOC42NjY2NywxOC42NjY2N3YxMzAuNjY2NjdjMCwxMC4zMTMzMyA4LjM1MzMzLDE4LjY2NjY3IDE4LjY2NjY3LDE4LjY2NjY3aDcxLjEyOTMzdi02NC45NjkzM2gtMjEuODY4di0yNS40MzMzM2gyMS44Njh2LTE4LjcxMzMzYzAsLTIxLjY5MDY3IDEzLjI2MjY3LC0zMy41MTYgMzIuNjIsLTMzLjUxNmM2LjUyNCwtMC4wMTg2NyAxMy4wMzg2NywwLjMxNzMzIDE5LjUyNTMzLDAuOTh2MjIuNjhoLTEzLjMyOGMtMTAuNTQ2NjcsMCAtMTIuNiw0Ljk4NCAtMTIuNiwxMi4zMzg2N3YxNi4xOTMzM2gyNS4ybC0zLjI3NiwyNS40MzMzM2gtMjIuMDczMzN2NjUuMDA2NjdoMzMuNDY5MzNjMTAuMzEzMzMsMCAxOC42NjY2NywtOC4zNTMzMyAxOC42NjY2NywtMTguNjY2Njd2LTEzMC42NjY2N2MwLC0xMC4zMTMzMyAtOC4zNTMzMywtMTguNjY2NjcgLTE4LjY2NjY3LC0xOC42NjY2N3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==') 50% 50% no-repeat;
+background-size: 100%; }
+
+.icons8-gmail {
+display: inline-block;
+margin-bottom: -0.5em;
+margin-right: 1em;
+width: 24px;
+height: 24px;
+background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48ZyBpZD0ic3VyZmFjZTEiPjxwYXRoIHN0eWxlPSIgZmlsbDojRTBFMEUwOyIgZD0iTSA1LjUgNDAuNSBMIDQyLjUgNDAuNSBDIDQ0LjQzMzU5NCA0MC41IDQ2IDM4LjkzMzU5NCA0NiAzNyBMIDQ2IDExIEMgNDYgOS4wNjY0MDYgNDQuNDMzNTk0IDcuNSA0Mi41IDcuNSBMIDUuNSA3LjUgQyAzLjU2NjQwNiA3LjUgMiA5LjA2NjQwNiAyIDExIEwgMiAzNyBDIDIgMzguOTMzNTk0IDMuNTY2NDA2IDQwLjUgNS41IDQwLjUgWiAiPjwvcGF0aD48cGF0aCBzdHlsZT0iIGZpbGw6I0Q5RDlEOTsiIGQ9Ik0gMjYgNDAuNSBMIDQyLjUgNDAuNSBDIDQ0LjQzMzU5NCA0MC41IDQ2IDM4LjkzMzU5NCA0NiAzNyBMIDQ2IDExIEMgNDYgOS4wNjY0MDYgNDQuNDMzNTk0IDcuNSA0Mi41IDcuNSBMIDUuNSA3LjUgQyAzLjU2NjQwNiA3LjUgMiA5LjA2NjQwNiAyIDExIFogIj48L3BhdGg+PHBhdGggc3R5bGU9IiBmaWxsOiNFRUVFRUU7IiBkPSJNIDYuNzQ2MDk0IDQwLjUgTCA0Mi41IDQwLjUgQyA0NC40MzM1OTQgNDAuNSA0NiAzOC45MzM1OTQgNDYgMzcgTCA0NiAxMS41IFogIj48L3BhdGg+PHBhdGggc3R5bGU9IiBmaWxsOiNFMEUwRTA7IiBkPSJNIDI1Ljc0NjA5NCA0MC41IEwgNDIuNSA0MC41IEMgNDQuNDMzNTk0IDQwLjUgNDYgMzguOTMzNTk0IDQ2IDM3IEwgNDYgMTEuNSBMIDE4Ljc2OTUzMSAzMS42MTcxODggWiAiPjwvcGF0aD48cGF0aCBzdHlsZT0iIGZpbGw6I0NBMzczNzsiIGQ9Ik0gNDIuNSA5LjUgTCA1LjUgOS41IEMgMy41NjY0MDYgOS41IDIgOS4wNjY0MDYgMiAxMSBMIDIgMzcgQyAyIDM4LjkzMzU5NCAzLjU2NjQwNiA0MC41IDUuNSA0MC41IEwgNyA0MC41IEwgNyAxMiBMIDQxIDEyIEwgNDEgNDAuNSBMIDQyLjUgNDAuNSBDIDQ0LjQzMzU5NCA0MC41IDQ2IDM4LjkzMzU5NCA0NiAzNyBMIDQ2IDExIEMgNDYgOS4wNjY0MDYgNDQuNDMzNTk0IDkuNSA0Mi41IDkuNSBaICI+PC9wYXRoPjxwYXRoIHN0eWxlPSIgZmlsbDojRjVGNUY1OyIgZD0iTSA0Mi41IDcuNSBMIDUuNSA3LjUgQyAzLjU2NjQwNiA3LjUgMiA5LjAzNTE1NiAyIDExIEMgMiAxMi4yMDcwMzEgMy41MTk1MzEgMTMuMjU3ODEzIDMuNTE5NTMxIDEzLjI1NzgxMyBMIDI0IDI3Ljc1NzgxMyBMIDQ0LjQ4MDQ2OSAxMy4yNTc4MTMgQyA0NC40ODA0NjkgMTMuMjU3ODEzIDQ2IDEyLjIwNzAzMSA0NiAxMSBDIDQ2IDkuMDM1MTU2IDQ0LjQzMzU5NCA3LjUgNDIuNSA3LjUgWiAiPjwvcGF0aD48cGF0aCBzdHlsZT0iIGZpbGw6I0U4NEY0QjsiIGQ9Ik0gNDMuMjQ2MDk0IDcuNTgyMDMxIEwgMjQgMjEgTCA0Ljc1MzkwNiA3LjU4MjAzMSBDIDMuMTc5Njg4IDcuOTE3OTY5IDIgOS4yOTY4NzUgMiAxMSBDIDIgMTIuMjA3MDMxIDMuNTE5NTMxIDEzLjI1NzgxMyAzLjUxOTUzMSAxMy4yNTc4MTMgTCAyNCAyNy43NTc4MTMgTCA0NC40ODA0NjkgMTMuMjU3ODEzIEMgNDQuNDgwNDY5IDEzLjI1NzgxMyA0NiAxMi4yMDcwMzEgNDYgMTEgQyA0NiA5LjI5Njg3NSA0NC44MjAzMTMgNy45MTc5NjkgNDMuMjQ2MDk0IDcuNTgyMDMxIFogIj48L3BhdGg+PC9nPjwvc3ZnPg==') 50% 50% no-repeat;
+background-size: 100%; }
+
+/*Custom Override*/
+button.btn-submit{
+    background: #FF8A00;  /* fallback for old sbrowsers */
+    background: -webkit-linear-gradient(to right, #FF8A00, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8A00, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card.auth-card
+{
+    border-radius: 5px;
+}
+
+.auth-card .image-side
+{
+    background:-webkit-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,39,160)), url("../../img/login-screen.jpg") no-repeat center top;
+    background:-o-linear-gradient(bottom, rgba(255,0,0,0), rgba(0,39,160)), url("../../img/login-screen.jpg") no-repeat center top;
+    background: linear-gradient(to top, rgba(8, 8, 8, 0.71), rgba(0,39,160)), url(../../img/login-screen.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.auth-card .image-reset{
+    background: -webkit-linear-gradient(left, rgba(255, 91, 0, 0.75), rgb(244, 133, 16)), url("../../img/password.jpg") no-repeat center top;
+    background: -o-linear-gradient(left, rgba(255, 91, 0, 0.75), rgb(244, 133, 16)), url("../../img/password.jpg") no-repeat center top;
+    background: linear-gradient(to right, rgba(255, 91, 0, 0.75), rgb(244, 133, 16)), url("../../img/password.jpg") no-repeat center top;
+    background-size: cover;
+    width: 40%;
+    padding: 80px 40px;
+}
+
+@media screen and (max-width: 768px){
+    .auth-card .image-reset{
+        width: 100%;
+    }
+}
+
+hr{
+    background-color: rgba(0,0,0,0.3);
+}
+.hr-y{
+    position: relative;
+}
+.hr-y::after
+{
+    content: "OR";
+    position: absolute;
+    background-color: #E0E0E0;
+    padding: 0.75em;
+    text-align: center;
+    border-radius: 100px;
+    transform: translate(-50%, -50%);
+    left:50%;
+    font-weight: bold;
+}
+.bg-fb-gradient
+{
+    background: #1A77F2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1A77F2, #1A77F2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1A77F2, #1A77F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-gmail-gradient
+{
+    background: #a73737;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*Index.html
+*Floating action menu*/
+.navbar .icon-menu-item-sm i
+{
+    font-size: 15px;
+    display: block;
+    line-height: 30px;
+}
+
+.navbar .icon-menu-item span
+{
+    font-size: 14px;
+}
